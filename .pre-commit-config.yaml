@@ -1,0 +1,16 @@
+default_language_version:
+  python: python3.7
+fail_fast: true
+repos:
+  - repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+      - id: black
+        types: [file, python]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: debug-statements
+      - id: detect-private-key
+      - id: end-of-file-fixer
