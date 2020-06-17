@@ -1,0 +1,3 @@
+[console_scripts]
+openfda = openfda.cli:main
+

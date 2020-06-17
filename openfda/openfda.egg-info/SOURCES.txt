@@ -1,0 +1,11 @@
+setup.py
+openfda/__init__.py
+openfda/api.py
+openfda/cli.py
+openfda.egg-info/PKG-INFO
+openfda.egg-info/SOURCES.txt
+openfda.egg-info/dependency_links.txt
+openfda.egg-info/entry_points.txt
+openfda.egg-info/requires.txt
+openfda.egg-info/top_level.txt
+openfda.egg-info/zip-safe

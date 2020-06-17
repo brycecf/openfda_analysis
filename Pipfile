@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyterlab = "*"
+
+[packages]
+requests = "*"
+pandas = "*"
+matplotlib = "*"
+fire = "*"
+click = "*"
+scipy = "*"
+tqdm = "*"
+seaborn = "*"
+country-converter = "*"
+fasttext = "*"
+nmslib = "*"
+scikit-learn = "*"
+nltk = "*"
+
+[requires]
+python_version = "3.7"
